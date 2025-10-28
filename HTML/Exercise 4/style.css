@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Form Container */
+form {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Fieldset and Legend */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+}
+
+/* Labels and Inputs */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Checkbox and Radio spacing */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
