@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration Form</title>
+</head>
+<body>
+    <h1>Tech Conference Registration</h1>
+    
+    <form action="#" method="post">
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="enter your name"><br><br>
+
+            <label for="email">Email Address: *</label><br>
+            <input type="email" id="email" name="email" required placeholder="enter your email"><br><br>
+
+            <label for="contactNumber">Contact Number:</label><br>
+            <input type="text" id="contactNumber" name="contactNumber" placeholder="+252 61 8490849"><br><br>
+        </fieldset>
+
+        <!-- Conference Details Section -->
+        <fieldset>
+            <legend>Conference Details</legend>
+
+            <p>Preferred Day(s) of Attendance:</p>
+           
+            <input type="checkbox" id="day1" name="days" value="Day 1">
+            <label for="day1">Day 1</label><br>
+
+            <input type="checkbox" id="day2" name="days" value="Day 2">
+            <label for="day2">Day 2</label><br>
+
+            <input type="checkbox" id="day3" name="days" value="Day 3">
+            <label for="day3">Day 3</label><br><br>
+
+            <p>Type of Attendance:</p>
+            <input type="radio" id="virtual" name="attendanceType" value="Virtual" required>
+            <label for="virtual">Virtual</label><br>
+
+            <input type="radio" id="inPerson" name="attendanceType" value="In-person" required>
+            <label for="inPerson">In-person</label><br><br>
+
+            <label for="tshirtSize">T-shirt Size:</label><br>
+            <select id="tshirtSize" name="tshirtSize">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select><br><br>
+        </fieldset>
+
+        <!-- Sessions of Interest Section -->
+        <fieldset>
+            <legend>Sessions of Interest</legend>
+            <p>Select the topics you're interested in:</p>
+
+            <input type="checkbox" id="webDev" name="sessions" value="Web Development">
+            <label for="webDev">Web Development</label><br>
+
+            <input type="checkbox" id="dataScience" name="sessions" value="Data Science">
+            <label for="dataScience">Data Science</label><br>
+
+            <input type="checkbox" id="cloud" name="sessions" value="Cloud Computing">
+            <label for="cloud">Cloud Computing</label><br>
+
+            <input type="checkbox" id="cyber" name="sessions" value="Cybersecurity">
+            <label for="cyber">Cybersecurity</label><br>
+
+            <input type="checkbox" id="ai" name="sessions" value="AI & Machine Learning">
+            <label for="ai">AI & Machine Learning</label><br><br>
+        </fieldset>
+
+        <!-- Dietary Preferences Section -->
+        <fieldset>
+            <legend>Dietary Preferences</legend>
+            <input type="checkbox" id="vegetarian" name="diet" value="Vegetarian">
+            <label for="vegetarian">Vegetarian</label><br>
+
+            <input type="checkbox" id="vegan" name="diet" value="Vegan">
+            <label for="vegan">Vegan</label><br>
+
+            <input type="checkbox" id="glutenFree" name="diet" value="Gluten-Free">
+            <label for="glutenFree">Gluten-Free</label><br>
+
+            <input type="checkbox" id="nutFree" name="diet" value="Nut-Free">
+            <label for="nutFree">Nut-Free</label><br>
+
+            <input type="checkbox" id="dairyFree" name="diet" value="Dairy-Free">
+            <label for="dairyFree">Dairy-Free</label><br>
+
+            <input type="checkbox" id="noRestrictions" name="diet" value="No Restrictions">
+            <label for="noRestrictions">No Restrictions</label><br><br>
+        </fieldset>
+
+        <!-- Additional Comments Section -->
+        <fieldset>
+            <legend>Additional Comments</legend>
+            <label for="comments">Any additional comments or requirements:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br><br>
+        </fieldset>
+
+        <!-- Consent Section -->
+        <fieldset>
+            <legend>Consent</legend>
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">I agree to receive updates about the conference via email.</label><br><br>
+        </fieldset>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
