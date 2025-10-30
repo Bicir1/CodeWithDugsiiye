@@ -1,13 +1,9 @@
-import Header from './Components/Header'
-import Footer from './Components/Footer'
-import Post from './Components/Post'
+import Blog from './Components/Blog'
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Post/>
-      <Footer/>
+      <Blog/>
     </div>
   );
 };

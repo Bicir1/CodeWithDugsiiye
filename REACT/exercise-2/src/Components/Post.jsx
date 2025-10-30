@@ -6,7 +6,7 @@ const Post = () => {
             <p>Ku Soo Dhawoow Dugsiiye Shop! <br/>
                 Halkan waxaan kula wadaageynaa talooyin, <br/>
                 macluumaad iyo hagitaan ku saabsan wax iibsiga,<br/> 
-                tayada alaabaha, iyo sida aad u dooran karto waxa kuugu habboon.</p><br/>
+                tayada alaabaha, iyo sida aad u dooran karto waxa kuugu habboon.</p>
         </div>
     );
 };
