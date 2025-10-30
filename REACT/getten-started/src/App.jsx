@@ -1,13 +1,15 @@
-const Greeting = (props) =>{
-    return (
-        <h1>Name : {props.name} Age : {props.age}</h1>
-    )
-}
+import React, { useState } from 'react';
 
 const App = () => {
+    const [count, setCount] = useState(0);
+    const increment =()=>{
+        setCount(count +1)
+        console.log(count)
+    } 
     return (
         <div>
-        <Greeting name="Bicir" age="24" />
+            <p>You clicked {count} times</p>
+            <button onClick={increment}>Click Me</button>
         </div>
     );
 };
