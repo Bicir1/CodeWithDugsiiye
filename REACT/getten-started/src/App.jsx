@@ -1,10 +1,13 @@
-import Layout from "./Layout";
-
+const Greeting = (props) =>{
+    return (
+        <h1>Name : {props.name} Age : {props.age}</h1>
+    )
+}
 
 const App = () => {
     return (
         <div>
-            <Layout/>
+        <Greeting name="Bicir" age="24" />
         </div>
     );
 };
